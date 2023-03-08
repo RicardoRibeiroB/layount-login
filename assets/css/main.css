@@ -1,0 +1,10 @@
+*{
+    outline: 1px dashed lightcoral;
+}
+:root{
+    --primary-color: #9C9592;
+    --secondary-color: white;
+    --terceary-color: #202026;
+    --quaternary-color: #FCF6EA;
+    --quintarnary-color: #343440;
+}
