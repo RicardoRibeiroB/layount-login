@@ -11,7 +11,7 @@
 .left-side, 
 .right-side{
     /* Vertical hight 100% da altura da tela */
-    height: 100vh;
+    height: 45vh;
     /* Oculto a barra de rolagem */
     overflow: hidden;
 }
@@ -19,7 +19,7 @@
     background: var(--terceary-color);
 }
 .left-side__brand{
-    width: 60%;
+    width: 30%;
 }
 
 .right-side__title{
@@ -51,3 +51,12 @@
 .right-side__remenber-pass{
     margin-top: 10px;
 }
+@media only screen and (min-width: 992px) {
+    .left-side, 
+.right-side{
+    height: 100vh;
+}
+.left-side__brand{
+    width: 60%;
+}
+  }
