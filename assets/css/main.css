@@ -1,10 +1,53 @@
-*{
+/* *{
     outline: 1px dashed lightcoral;
-}
+} */
 :root{
     --primary-color: #9C9592;
     --secondary-color: white;
     --terceary-color: #202026;
     --quaternary-color: #FCF6EA;
     --quintarnary-color: #343440;
+}
+.left-side, 
+.right-side{
+    /* Vertical hight 100% da altura da tela */
+    height: 100vh;
+    /* Oculto a barra de rolagem */
+    overflow: hidden;
+}
+.left-side{
+    background: var(--terceary-color);
+}
+.left-side__brand{
+    width: 60%;
+}
+
+.right-side__title{
+    margin-bottom: 5px;
+    letter-spacing: 13px;
+    font-size: 5em;
+    color: var(--quintarnary-color);
+}
+.right-side__form{
+    padding: 50px;
+}
+.right-side__label{
+    margin: 10px;
+    font-size: 1.3em;
+}
+.right-side__input{
+    width: 466px;
+    height: 61px;
+    border-radius: 16px;
+    border: 1px solid black;
+}
+.right-side__button{
+    width: 224px;
+    height: 55px;
+    border-radius: 16px;
+    background: var(--terceary-color);
+    color: var(--secondary-color);
+}
+.right-side__remenber-pass{
+    margin-top: 10px;
 }
